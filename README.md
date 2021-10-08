@@ -4,7 +4,7 @@
 ***Server side:***
 > gcc filename.c -o filename 
 
-> ./server 3000
+> ./filename 3000
 ```
 Port: 3000
 [+]Bind
