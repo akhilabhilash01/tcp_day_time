@@ -4,23 +4,18 @@
 ***Server side:***
 > gcc filename.c -o filename 
 
-> ./filename
+> ./filename 3000
 ```
-text message here .. :hello
-CLIENT: hi
+Port: 3000
+[+]Bind
+[+]Listening for the client
+Client 1 requested for time at Fri Oct  8 05:25:54 2021
 ```
 ***Client side:***
-> gcc filename.c -o filename 
-
-> ./filename 0.0.0.0
+> nc 127.0.0.1 3000
 ```
-Localhost: 192.168.233.219
-Local Port: 9002
-Remote Host: 0.0.0.0
-
-SERVER : hello
-text message here... :hi
+Fri Oct  8 05:25:54 2021
 ```
-![image](https://user-images.githubusercontent.com/91663578/136524019-483db708-6c9b-44b2-abb4-a18e089d6d69.png)
+![image](https://user-images.githubusercontent.com/91663578/136503217-e76a7aef-95ca-4fd2-873d-e8bbd1c3efd4.png)
 
 <!--P.S. Software used: CoCalc Online Linux Terminal -->  
